@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/async-model/async-model.iml" filepath="$PROJECT_DIR$/async-model/async-model.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/deep-in-java.iml" filepath="$PROJECT_DIR$/.idea/deep-in-java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-start/service-start.iml" filepath="$PROJECT_DIR$/service-start/service-start.iml" />
     </modules>
   </component>
 </project>

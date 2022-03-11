@@ -17,6 +17,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>async-model</module>
+        <module>service-start</module>
     </modules>
 
     <dependencyManagement>
@@ -29,14 +30,6 @@
         </dependencies>
     </dependencyManagement>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
     <properties>
         <async-model-version>1.0.0</async-model-version>
