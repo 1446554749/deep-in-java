@@ -18,6 +18,8 @@
     <modules>
         <module>async-model</module>
         <module>service-start</module>
+        <module>design-pattern</module>
+        <module>java-basic</module>
     </modules>
 
     <dependencyManagement>
@@ -34,4 +36,6 @@
     <properties>
         <async-model-version>1.0.0</async-model-version>
     </properties>
+
+
 </project>

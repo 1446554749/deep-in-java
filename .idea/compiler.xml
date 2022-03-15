@@ -6,6 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="design-pattern" />
+        <module name="java-basic" />
         <module name="async-model" />
         <module name="service-start" />
       </profile>
@@ -13,12 +15,16 @@
     <bytecodeTargetLevel>
       <module name="async-model" target="1.8" />
       <module name="deep-in-java" target="1.8" />
+      <module name="design-pattern" target="11" />
+      <module name="java-basic" target="11" />
       <module name="service-start" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="async-model" options="-parameters" />
+      <module name="design-pattern" options="-parameters" />
+      <module name="java-basic" options="-parameters" />
       <module name="service-start" options="-parameters" />
     </option>
   </component>
