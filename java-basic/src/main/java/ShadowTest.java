@@ -1,3 +1,7 @@
+/**
+ * 内部类的demo代码
+ * https://docs.oracle.com/javase/tutorial/java/javaOO/nested.html
+ */
 public class ShadowTest {
 
     int x = 0;
