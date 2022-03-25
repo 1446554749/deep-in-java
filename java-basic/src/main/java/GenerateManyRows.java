@@ -8,7 +8,7 @@ public class GenerateManyRows {
     public static void main(String[] args) throws IOException {
         FileWriter writer = new FileWriter("/tmp/manyRows.txt");
         BufferedWriter bufWriter = new BufferedWriter(writer);
-        for (int i = 1; i <= 10000000; i++) {
+        for (int i = 1; i <= 50000000; i++) {
             String str = i +
                     "," +
                     "value" +
