@@ -20,7 +20,27 @@
         <module>service-start</module>
         <module>design-pattern</module>
         <module>java-basic</module>
+        <module>mock-reids</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-slf4j-impl</artifactId>
+        </dependency>
+    </dependencies>
 
     <dependencyManagement>
         <dependencies>
@@ -29,12 +49,41 @@
                 <artifactId>async-model</artifactId>
                 <version>${async-model-version}</version>
             </dependency>
+            <dependency>
+                <groupId>io.netty</groupId>
+                <artifactId>netty-all</artifactId>
+                <version>${netty-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok-version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-api</artifactId>
+                <version>${log4j-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>${log4j-version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-slf4j-impl</artifactId>
+                <version>${log4j-version}</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
 
     <properties>
         <async-model-version>1.0.0</async-model-version>
+        <netty-version>4.1.80.Final</netty-version>
+        <lombok-version>1.18.24</lombok-version>
+        <log4j-version>2.3</log4j-version>
     </properties>
 
 
