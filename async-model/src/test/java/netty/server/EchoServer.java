@@ -11,6 +11,9 @@ import io.netty.handler.logging.LogLevel;
 import io.netty.handler.logging.LoggingHandler;
 import netty.server.handler.EchoHandler;
 
+/**
+ * echo server
+ */
 public class EchoServer {
     public static void main(String[] args) {
         NioEventLoopGroup boss = new NioEventLoopGroup(1);
