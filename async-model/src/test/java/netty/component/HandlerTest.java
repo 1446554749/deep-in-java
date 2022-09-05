@@ -42,12 +42,4 @@ public class HandlerTest {
         channel.writeOutbound(ByteBufAllocator.DEFAULT.buffer().writeBytes("out bound".getBytes()));
 
     }
-
-    private static void testOutBoundHandler() {
-
-    }
-
-    private static void testInBoundHandler() {
-
-    }
 }
